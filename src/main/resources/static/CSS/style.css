@@ -258,6 +258,18 @@
   margin-right: 10px;
 }
 
+/* section */
+
+.recom-track {
+  border: 2px solid #11101d;
+  border-radius: 20px;
+  display:flex;
+  width: 400px;
+  height: 500px;
+  margin-top: 150px;
+  position: absolute;
+}
+
 /* audio-player */
 
 .music-player {
@@ -308,7 +320,7 @@
 .bx-right-arrow-circle {
   margin-top: 22px;
   display: flex;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   padding-right: 15px;
   text-align: center
