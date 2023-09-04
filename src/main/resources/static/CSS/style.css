@@ -280,16 +280,36 @@
   text-align: center;
 }
 
+.info-text {
+  padding-left: 15px;
+}
+
 .name-track, .musican {
   color: #fff;
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
   margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
   transition: ease-out 0.3s;
 }
 
 .musican:hover {
   color:#55e485
+}
+
+#panel-player {
+  color: #fff;
+  position: relative;
+}
+
+.bx-left-arrow-circle, 
+.bx-pause-circle, 
+.bx-right-arrow-circle {
+  margin-top: 22px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 15px;
+  text-align: center
 }
