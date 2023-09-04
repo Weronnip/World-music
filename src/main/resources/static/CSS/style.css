@@ -266,7 +266,7 @@
   border-radius: 25px;
   width: 500px;
   height: 80px;
-  margin-top: 15px;
+  margin-top: 30px;
   transition: ease-out 0.3s;
 }
 
@@ -275,24 +275,21 @@
 }
 
 .info-music {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.info-text {
-  display: flex;
-  justify-content: center;
-}
-
-.name-track {
+.name-track, .musican {
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  padding-top: 15px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  transition: ease-out 0.3s;
 }
 
-.musican {
-  color: #FFF;
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: none;
+.musican:hover {
+  color:#55e485
 }
