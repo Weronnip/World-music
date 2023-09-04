@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="../static/CSS/style.css" th:href="@{/CSS/style.css}" rel="stylesheet" />
+    <title th:text="${title}"/>
+</head>
+<body>
+    
+  <div class="sidebar">
+
+    <div class="logo-details">
+      <i class='bx bxs-music icon'></i>
+        <div class="logo_name">World Music</div>
+        <i class='bx bx-menu' id="btn" ></i>    
+      </div>
+
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Music Search</span>
+      </li>
+      
+      <br>
+
+      <li>
+        <a href="/About">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">About</span>
+        </a>
+         <span class="tooltip">About</span>
+      </li>
+
+      <li>
+        <a href="/Contact">
+          <i class="bx bxs-contact"></i>
+          <span class="links_name">Contact</span>
+        </a>
+        <span class="tooltip">Contact</span>
+      </li>
+
+      <li>
+        <a href="#rec-track">
+          <i class='bx bx-like'></i>
+          <span class="links_name">Recommendations</span>
+        </a>
+         <span class="tooltip">Recommendations</span>
+      </li>
+
+      <li class="log">
+        <div class="log-ins">
+            <a href="/login">
+              <i class='bx bx-log-in'></i>
+              <span class="links_name">Login</span>
+            </a>
+            <span class="tooltip">Login</span>
+          </div>
+    </li>
+
+    </div>
+
+    <div class="section">
+
+      <div class="music-player">
+          <div class="info-music">
+            <p class="info-text">
+              <h4 class="name-track">Fobos</h4>
+              <a href="#" class="musican">Litron</a>
+            </p>
+          </div>
+        </div>
+        
+        <div class="mix-track">
+            
+        </div>
+        
+        <div class="recom-track" id="rec-track">
+
+        </div>
+
+        <div class="playlist-contenir">
+          
+        </div>
+
+    </div>
+    <script type="text/javascript" th:src="@{/JavaScript/script.js}" src="../static/JavaScript/script.js"></script>
+    <script type="text/javascript" th:scr="@{/JavaScript/move-window.js}" src="../static/JavaScript/move-window.js"></script>
+</body>
+</html>
