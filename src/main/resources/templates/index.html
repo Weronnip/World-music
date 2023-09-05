@@ -65,7 +65,6 @@
     <div class="section">
               <div class="player">
                     <div class="details">
-                        <div class="track-art"></div>
                         <div class="track-name">Track Name</div>
                         <div class="track-artist">Track Artist</div>
                     </div>
@@ -76,7 +75,7 @@
                          <div class="total-duration">00:00</div>
                     </div>
          
-                    <div class="slider_container">
+                    <div class="slider_volume_container">
                         <i class="bx bx-volume-low"></i>
                          <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
                          <i class="bx bx-volume-full"></i>
@@ -121,5 +120,6 @@
 
     </div>
     <script type="text/javascript" th:src="@{/JavaScript/script.js}" src="../static/JavaScript/script.js"></script>
+    <script type="text/javascript" th:src="@{/JavaScript/player.js}" src="../static/JavaScript/player.js"></script>
 </body>
 </html>

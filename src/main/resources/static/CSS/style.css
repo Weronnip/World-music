@@ -290,24 +290,24 @@
 .details {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   width: 500px;
   height: 100px;
 }
 
-.now-playing {
-font-size: 1rem;
-}
 
 .track-name {
   color: #fff;
+  font-weight: 600;
   font-size: 15px;
+  text-align: center;
 }
 
 .track-artist {
   color: #fff;
-  margin-top: 5px;
+  text-align: center;
+  font-weight: 500;
   font-size: 15px;
 }
 
@@ -316,8 +316,8 @@ font-size: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-left: 200px;
+  margin-top: 65px;
   position: absolute;
 }
 
@@ -330,6 +330,7 @@ font-size: 1rem;
 .playpause-track,
 .prev-track,
 .next-track {
+  font-size: 18px;
   padding: 10px;
   opacity: 0.8;
   transition: opacity .2s;
@@ -347,6 +348,15 @@ font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+.slider_volume_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+  margin-left: 380px;
 }
 
 .seek_slider, .volume_slider {
@@ -382,7 +392,7 @@ font-size: 1rem;
 }
 
 .volume_slider {
-  width: 20%;
+  width: 30%;
 }
 
 .current-time,
