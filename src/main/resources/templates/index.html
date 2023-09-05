@@ -63,71 +63,48 @@
     </div>
 
     <div class="section">
-
-      <div class="music-player">
-          <div class="info-music">
-            <p class="info-text">
-
-              <div class="detalis">
-                <div class="tracl-art"></div>
-                <div class="name-track">Fobos</div>
-                <div class="musican">Lorinx</div>
-              </div>
-              
-               <div class="slider_container">
-                <div class="current-time">00:00</div>
-                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-                <div class="total-duraction">00:00</div>
-              </div>
+              <div class="player">
+                    <div class="details">
+                        <div class="track-art"></div>
+                        <div class="track-name">Track Name</div>
+                        <div class="track-artist">Track Artist</div>
+                    </div>
+         
+                    <div class="slider_container">
+                        <div class="current-time">00:00</div>
+                         <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                         <div class="total-duration">00:00</div>
+                    </div>
+         
+                    <div class="slider_container">
+                        <i class="bx bx-volume-low"></i>
+                         <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                         <i class="bx bx-volume-full"></i>
+                    </div>
+         
+                    <div class="buttons">
+                        <div class="random-track" onclick="randomTrack()">
+                            <i class="bx bx-shuffle" title="random"></i>
+                        </div>
+                        <div class="prev-track" onclick="prevTrack()">
+                             <i class="bx bx-left-arrow-circle"></i>
+                         </div>
+                         <div class="playpause-track" onclick="playpauseTrack()">
+                             <i class="bx bx-play-circle"></i>
+                         </div>
+                         <div class="next-track" onclick="nextTrack()">
+                             <i class="bx bx-right-arrow-circle"></i>
+                         </div>
+                         <div class="repeat-track" onclick="repeatTrack()">
+                             <i class="bx bx-repeat" title="repeat"></i>
+                         </div>
+                    </div>
             </div>
-            
-            <div class="slider_container">
-              <i class="bx bx-volume-low"></i>
-              <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-              <i class="bx bx-volume-full"></i>
-            </div>
-    
-            <div class="buttons">
-              <div class="random_track" onclick="randomTrack()">
-                <i class=" bx bx-shuffle" title="random"></i>
-              </div>
-              
-              <div class="back_track" onclick="randomTrack()">
-                <i class="bx bx-left-arrow-circle"></i>
-              </div>
-
-              <div class="prev_track" onclick="prevTrack()">
-                <i class="bx bx-pause-circle"></i>
-              </div>
-              
-              <div class="playpause-track" onclick="playpauseTrack()">
-                <i class="bx bx-play-circle" ></i>
-              </div>
-              
-              <div class="next_track" onclick="nextTrack()">
-                <i class="bx bx-right-arrow-circle"></i>
-              </div>
-    
-              <div class="back_track" onclick="repeatTrack()">
-                <i class="bx bx-repeat" title="repeat"></i>
-              </div>
-              
-              <div id="wave">
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-                <span class="stroke"></span>
-              </div>
-
-            </div>
-            </p>
           </div>
 
           
 
-        <div class="recom-track" id="rec-track">
+        <!-- <div class="recom-track" id="rec-track">
           <div class="name-block">
             <h4 class="name-rec">Recommendations</h4>
             <ul class="track-list">
@@ -136,7 +113,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
         <div class="playlist-contenir">
           
