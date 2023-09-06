@@ -7,10 +7,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #c9c7c7;
     font-family: 'Kodchasan', sans-serif;
     overflow: scroll;
     overflow-x: hidden;
+}
+
+body {
+  background-color: #c9c7c7;
 }
   
 ::-webkit-scrollbar {
