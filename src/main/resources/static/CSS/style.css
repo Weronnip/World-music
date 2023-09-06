@@ -351,7 +351,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
-  position: fixed;
 }
 
 .slider_volume_container {
@@ -360,7 +359,6 @@
   align-items: center;
   margin-bottom: 14px;
   margin-left: 380px;
-  position: fixed;
 }
 
 .seek_slider, .volume_slider {
