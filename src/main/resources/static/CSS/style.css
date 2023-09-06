@@ -476,4 +476,7 @@ cursor: pointer;
 
 .title-block {
   text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
 }
