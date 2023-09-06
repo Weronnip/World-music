@@ -195,8 +195,7 @@
   display: flex;
   justify-content: center;
   background: #c9c7c7;
-  min-height: 100vh;
-  height: auto;
+  height: 100% auto;
   top: 0;
   left: 78px;
   width: calc(100% - 78px);
@@ -462,5 +461,5 @@ cursor: pointer;
 .block_content {
   display: flex;
   justify-content: flex-start;
-  margin-top: 20px;
+  padding-left: 150px;
 }
