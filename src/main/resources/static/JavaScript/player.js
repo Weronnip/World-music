@@ -24,18 +24,13 @@ let updateTimer;
 
 const music_list = [
     {
-        name : '❄️💔 ĤǺШЛǺ ДҎУГǾГǾ 💔❄️',
-        artist : '#Prince. x ㄊ E B R A S H I N ㄊ -',
-        music : 'music/#Prince. x ㄊ E B R A S H I N ㄊ - ❄️💔 ĤǺШЛǺ ДҎУГǾГǾ 💔❄️.mp3'
-    },
-    {
-        name : 'Antarctica',
-        artist : '$uicideboy$',
+        name : 'Antarctica  -',
+        artist : '  $uicideboy$',
         music : 'music/$uicideboy$ - Antarctica.mp3'
     },
     {
         name : 'Kill Yourself (Part III)  -',
-        artist : ' $uicideboy$',
+        artist : '  $uicideboy$',
         music : 'music/$uicideboy$ - Kill Yourself (Part III).mp3'
     },
     
