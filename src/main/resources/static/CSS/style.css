@@ -478,5 +478,12 @@ cursor: pointer;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  padding-top: 15px;
+  padding-top: 10px;
+}
+
+.content-music {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
