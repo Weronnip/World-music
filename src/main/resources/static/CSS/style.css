@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #c9c7c7;
     font-family: 'Kodchasan', sans-serif;
     overflow: scroll;
     overflow-x: hidden;
@@ -194,7 +195,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background: #c9c7c7;
   height: 100% auto;
   top: 0;
   left: 78px;
