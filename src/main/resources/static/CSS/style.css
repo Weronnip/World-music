@@ -471,7 +471,7 @@ cursor: pointer;
 .wrapper {
   border: 2px solid #11101d;
   width: 350px;
-  height: 200px;
+  height: 550px;
 }
 
 .title-block {
@@ -483,7 +483,12 @@ cursor: pointer;
 
 .content-music {
   text-align: center;
+  background-color: #11101d;
+  border-radius: 25px;
+  width: 90%;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: start;
+  margin-top: 15px;
 }
