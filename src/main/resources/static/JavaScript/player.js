@@ -101,12 +101,12 @@ function playpauseTrack(){
 function playTrack(){
     curr_track.play();
     isPlaying = true;
-    playpause_btn.innerHTML = '<i class="bx bx-pause-circle"></i>';
+    playpause_btn.innerHTML = '<i class="bx bx-pause-circle""></i>';
 }
 function pauseTrack(){
     curr_track.pause();
     isPlaying = false;
-    playpause_btn.innerHTML = '<i class="bx bx-play-circle></i>';
+    playpause_btn.innerHTML = '<i class="bx bx-play-circle"></i>';
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){
