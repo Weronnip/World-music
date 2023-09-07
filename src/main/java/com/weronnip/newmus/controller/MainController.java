@@ -9,25 +9,25 @@ public class MainController {
 
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("title", "Home");
+        model.addAttribute("title", "World Music");
         return "index";
     }
 
     @GetMapping("/Contact")
     public String contact(Model model) {
-        model.addAttribute("title", "Contact");
+        model.addAttribute("title", "World Music");
         return "contact";
     }
 
     @GetMapping("/Recommendations")
     public String recom(Model model) {
-        model.addAttribute("title", "Recommendations");
+        model.addAttribute("title", "World Music");
         return "recom";
     }
 
     @GetMapping("/Login")
     public String login(Model model) {
-        model.addAttribute("title", "Login");
+        model.addAttribute("title", "World Music");
         return "login";
     }
 }
