@@ -491,4 +491,9 @@ cursor: pointer;
   flex-direction: row;
   justify-content: center;
   margin-top: 15px;
+  margin-left: 15px;
+}
+
+.nama-track, .name-artist {
+  color: white;
 }
