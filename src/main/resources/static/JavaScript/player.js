@@ -21,16 +21,35 @@ let updateTimer;
 
 const music_list = [
     {
-        name : 'Antarctica  -',
-        artist : '$uicideboy$',
+        name : 'Antarctica',
+        artist : '- $uicideboy$',
         music : 'music/$uicideboy$ - Antarctica.mp3'
     },
     {
-        name : 'Kill Yourself (Part III)  -',
-        artist : '$uicideboy$',
+        name : 'Kill Yourself (Part III)',
+        artist : '- $uicideboy$',
         music : 'music/$uicideboy$ - Kill Yourself (Part III).mp3'
     },
-    
+    {
+        name : ' Mentalite(slowed+rewerb)',
+        artist : '- Baby Gang',
+        music : 'music/Baby Gang - Mentalite(slowed+rewerb).mp3'
+    },
+    {
+        name : 'ZEMLYA',
+        artist : '- EDWXRDX',
+        music : 'music/EDWXRDX - ZEMLYA.mp3'
+    },
+    {
+        name : 'Own Paradise (Slowed)',
+        artist : '- LXAES',
+        music : 'music/LXAES - Own Paradise (Slowed).mp3'
+    },
+    {
+        name : 'Ooes - Ночь (Minus)',
+        artist : '- LXAES',
+        music : 'music/LXAES Kkknellerstation - Ooes -  Ночь (Minus).mp3'
+    },
 ];
 
 loadTrack(track_index);
@@ -52,19 +71,6 @@ function loadTrack(track_index){
     random_bg_color();
 }
 
-function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
-
-    function populate(a){
-        for(let i=0; i<6; i++){
-            let x = Math.round(Math.random() * 14);
-            let y = hex[x];
-            a += y;
-        }
-        return a;
-    }
-}
 function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";

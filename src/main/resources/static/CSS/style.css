@@ -420,7 +420,7 @@ p {
 cursor: pointer;
 }
 .randomActive{
-    color: black;
+    color: rgb(95, 255, 3);
 }
 .rotate {
     animation: rotation 8s infinite linear;
@@ -499,5 +499,5 @@ cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 10px;
 }
