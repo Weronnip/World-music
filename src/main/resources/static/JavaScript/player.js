@@ -101,15 +101,11 @@ function playpauseTrack(){
 function playTrack(){
     curr_track.play();
     isPlaying = true;
-    track_art.classList.add('rotate');
-    wave.classList.add('loader');
-    playpause_btn.innerHTML = '<i class="bx-pause-circle"></i>';
+    playpause_btn.innerHTML = '<i class="bx bx-pause-circle"></i>';
 }
 function pauseTrack(){
     curr_track.pause();
     isPlaying = false;
-    track_art.classList.remove('rotate');
-    wave.classList.remove('loader');
     playpause_btn.innerHTML = '<i class="bx bx-play-circle></i>';
 }
 function nextTrack(){
