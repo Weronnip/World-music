@@ -489,6 +489,6 @@ cursor: pointer;
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   margin-top: 15px;
 }
