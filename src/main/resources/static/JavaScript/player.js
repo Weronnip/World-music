@@ -13,7 +13,6 @@ let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
 let randomIcon = document.querySelector('.bx-shuffle');
 let curr_track = document.createElement('audio');
-let curr_add_track = document.addEventListener('audio')
 
 let track_index = 0;
 let isPlaying = false;
@@ -23,37 +22,37 @@ let updateTimer;
 const music_list = [
     {
         name : 'Antarctica ',
-        artist : '- $uicideboy$',
+        artist : '$uicideboy$',
         music : 'music/$uicideboy$ - Antarctica.mp3'
     },
     {
         name : 'Kill Yourself (Part III) ',
-        artist : '- $uicideboy$',
+        artist : '$uicideboy$',
         music : 'music/$uicideboy$ - Kill Yourself (Part III).mp3'
     },
     {
         name : ' Mentalite(slowed+rewerb) ',
-        artist : '- Baby Gang',
+        artist : 'Baby Gang',
         music : 'music/Baby Gang - Mentalite(slowed+rewerb).mp3'
     },
     {
         name : 'ZEMLYA ',
-        artist : '- EDWXRDX',
+        artist : 'EDWXRDX',
         music : 'music/EDWXRDX - ZEMLYA.mp3'
     },
     {
         name : 'Own Paradise (Slowed) ',
-        artist : '- LXAES',
+        artist : 'LXAES',
         music : 'music/LXAES - Own Paradise (Slowed).mp3'
     },
     {
         name : 'Ooes - Ночь (Minus) ',
-        artist : '- LXAES',
+        artist : 'LXAES',
         music : 'music/LXAES Kkknellerstation - Ooes -  Ночь (Minus).mp3'
     },
     {
         name : 'Нашла другого ',
-        artist : '- Юрий Шатунов',
+        artist : 'Юрий Шатунов',
         music : 'music/Юрий Шатунов- Нашла другого.mp3'
     },
 ];
