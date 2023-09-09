@@ -2,6 +2,9 @@ import('../music')
 
 let track_name = document.querySelector('.track-name');
 let track_artist = document.querySelector('.track-artist');
+let name_track = document.querySelector('.name-track')
+let artist_track = document.querySelector('.artist-track')
+let playlist = document.querySelector('.content-music');
 
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
@@ -13,6 +16,7 @@ let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
 let randomIcon = document.querySelector('.bx-shuffle');
 let curr_track = document.createElement('audio');
+let curr_add_track = document.addEventListener('audio')
 
 let track_index = 0;
 let isPlaying = false;
@@ -72,6 +76,17 @@ function loadTrack(track_index){
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
+}
+
+playlist(index_track)
+
+function playlist(index_track) {
+
+    curr_add_track.src = music_list[index_track].music;
+    curr_add_track.playlist()
+
+    name_track.textContent = music_list[index_track].name;
+    artist_track.textContent = music_list[index_track].artist;
 }
 
 function reset(){
