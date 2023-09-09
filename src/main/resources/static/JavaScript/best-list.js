@@ -1,7 +1,9 @@
 import('../music')
 
-let track_name = document.querySelector('.nama-track');
-let track_artist = document.querySelector('.nama-artist');
+
+let name_track = document.querySelector('.name-track')
+let artist_track = document.querySelector('.artist-track')
+let playlist = document.querySelector('.content-music');
 
 let track = document.querySelector('.content-music');
 let playtract = document.querySelector('playTrack')
@@ -46,12 +48,11 @@ const music_list = [
     },
 ];
 
-loadTrack(track_index);
+track(track_index);
 
-function listTrack (track_index){
-    
+function track(track_index) {
+
     curr_track.src = music_list[track_index].music;
-    curr_track.load();
 
     track_name.textContent = music_list[track_index].name;
     track_artist.textContent = music_list[track_index].artist;

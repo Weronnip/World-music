@@ -2,9 +2,6 @@ import('../music')
 
 let track_name = document.querySelector('.track-name');
 let track_artist = document.querySelector('.track-artist');
-let name_track = document.querySelector('.name-track')
-let artist_track = document.querySelector('.artist-track')
-let playlist = document.querySelector('.content-music');
 
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
@@ -76,17 +73,6 @@ function loadTrack(track_index){
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
-}
-
-playlist(index_track)
-
-function playlist(index_track) {
-
-    curr_add_track.src = music_list[index_track].music;
-    curr_add_track.playlist()
-
-    name_track.textContent = music_list[index_track].name;
-    artist_track.textContent = music_list[index_track].artist;
 }
 
 function reset(){
