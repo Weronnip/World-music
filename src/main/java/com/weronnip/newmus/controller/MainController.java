@@ -13,19 +13,19 @@ public class MainController {
         return "index";
     }
 
-    @GetMapping("/Contact")
+    @GetMapping("/contact")
     public String contact(Model model) {
         model.addAttribute("title", "World Music");
         return "contact";
     }
 
-    @GetMapping("/Recommendations")
+    @GetMapping("/recommendations")
     public String recom(Model model) {
         model.addAttribute("title", "World Music");
         return "recom";
     }
 
-    @GetMapping("/Login")
+    @GetMapping("/login")
     public String login(Model model) {
         model.addAttribute("title", "World Music");
         return "login";
