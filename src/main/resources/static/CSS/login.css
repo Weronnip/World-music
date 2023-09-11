@@ -69,5 +69,7 @@ body {
     height: 25px;
     margin-top: 15px;
     outline: none;
+    display: flex;
     text-align: center;
+    flex-direction: column;
 }
