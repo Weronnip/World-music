@@ -66,6 +66,8 @@ body {
     color: white;
     list-style-type: none;
     width: 200px;
-    height: 20px;
+    height: 25px;
     margin-top: 15px;
+    outline: none;
+    text-align: center;
 }
