@@ -76,3 +76,15 @@ body {
     display: flex;
     text-align: center;
 }
+
+.button {
+    border-radius: 25px;
+    border: none;
+    background-color: #1d1b31;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
