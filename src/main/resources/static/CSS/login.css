@@ -41,7 +41,7 @@ body {
     border: 2px solid black;
     border-radius: 25px;
     width: 400px;
-    height: 250px;
+    height: 300px;
     margin-top: 25px;
 }
 
@@ -49,27 +49,30 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 15px;
 }
 
 .details {
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: 20px;
 }
 
 .login, .password {
+    align-items: center;
     background-color: #1d1b31;
+    border: none;
     border-radius: 25px;
     font-size: 19px;
     font-weight: 400;
     color: white;
     list-style-type: none;
     width: 200px;
-    height: 25px;
+    height: 30px;
     margin-top: 15px;
-    outline: none;
+    outline-style: none;
     display: flex;
     text-align: center;
-    flex-direction: column;
 }
