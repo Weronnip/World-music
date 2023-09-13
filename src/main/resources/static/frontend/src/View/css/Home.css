@@ -1,0 +1,36 @@
+* {
+    width: 100% auto;
+    height: 100% auto;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body {
+  background-color: #c9c7c7;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+    
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100% auto;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
