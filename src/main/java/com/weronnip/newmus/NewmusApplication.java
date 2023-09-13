@@ -10,4 +10,4 @@ public class NewmusApplication {
 		SpringApplication.run(NewmusApplication.class, args);
 	}
 
-}
+}	
