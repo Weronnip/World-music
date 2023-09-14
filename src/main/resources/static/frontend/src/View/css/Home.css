@@ -24,6 +24,7 @@ body {
 }
 
 .section{
+  background-color: #c9c7c7;
   position: relative;
   display: flex;
   justify-content: center;
@@ -33,4 +34,9 @@ body {
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
+}
+
+.title {
+  color: #FF0000;
+  text-align: center;
 }

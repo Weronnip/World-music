@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+import './css/Layout.css'
+import './JavaScript/script'
 
 function Layout() {
     return(
@@ -65,46 +66,8 @@ function Layout() {
             </div>
 
             <div className="section">
-                <div className="player">
-                    <div className="details">
-                        <div className="track-name">Track Name</div>
-                        <div className="track-artist">Track Artist</div>
-                    </div>
-         
-                    <div className="slider_container">
-                        <div className="current-time">00:00</div>
-                         <input type="range" min="1" max="100" value="0" className="seek_slider" onChange="seekTo()" />
-                         <div className="total-duration">00:00</div>
-                    </div>
-         
-                    <div className="slider_volume_container">
-                        <i className="bx bx-volume-low"></i>
-                         <input type="range" min="1" max="100" value="99" className="volume_slider" onChange="setVolume()" />
-                         <i className="bx bx-volume-full"></i>
-                    </div>
-         
-                    <div className="buttons">
-                        <div className="random-track" onClick="randomTrack()">
-                            <i className="bx bx-shuffle"></i>
-                        </div>
-                        <div className="prev-track" onClick="prevTrack()">
-                             <i className="bx bx-left-arrow-circle"></i>
-                         </div>
-                         <div className="playpause-track" onClick="playpauseTrack()">
-                             <i className="bx bx-play-circle"></i>
-                         </div>
-                         <div className="next-track" onClick="nextTrack()">
-                             <i className="bx bx-right-arrow-circle"></i>
-                         </div>
-                         <div className="repeat-track" onClick="repeatTrack()">
-                             <i className="bx bx-repeat"></i>
-                         </div>
-                    </div>      
-                </div>
+                
             </div>
-
-            <script src="../static/JavaScript/script.js" />
-            <script src="../static/JavaScript/player.js" />
             
             <Outlet />
 
