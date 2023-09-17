@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom'
 // pages
 import { Home } from './View/Home';
 
-// outlet
-import { Layout } from './components/Layout';
+// outline
+import { Layout } from './components/Layout'
 
 function App() {
   return (

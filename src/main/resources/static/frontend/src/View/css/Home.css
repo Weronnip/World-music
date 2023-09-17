@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
 * {
     width: 100% auto;
     height: 100% auto;
@@ -11,7 +13,7 @@
 }
 
 body {
-  background-color: #c9c7c7;
+  background-color: #1b1b1b;
 }
   
 ::-webkit-scrollbar {
@@ -24,7 +26,6 @@ body {
 }
 
 .section{
-  background-color: #c9c7c7;
   position: relative;
   display: flex;
   justify-content: center;
@@ -34,9 +35,4 @@ body {
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
-}
-
-.title {
-  color: #FF0000;
-  text-align: center;
 }
