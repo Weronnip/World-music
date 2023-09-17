@@ -33,7 +33,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  transition: ease-out 0.4s;
+  transition: all 0.4s;
 }
 
 .name-site:hover {
