@@ -81,6 +81,11 @@ body {
   color: #1bdd83;
 }
 
+.icon {
+  font-size: 25px;
+  margin-top: 4px;
+}
+
 .form {
   display: flex;
   align-items: center;
