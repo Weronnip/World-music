@@ -65,3 +65,28 @@ body {
     left: 600px;
     position: absolute;
 }
+
+.library-content {
+    border-radius: 25px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    padding: auto;
+    margin-top: 90px;
+}
+
+.playlist-content {
+    border-radius: 25px;
+    background-color: #ffe8ff;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 13px;
+    font-size: 19px;
+}
