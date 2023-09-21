@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { BiLike, BiHomeAlt2, BiLibrary, BiSolidPlaylist } from 'react-icons/bi/index'
+import { BiLike, BiHomeAlt2, BiLibrary, BiSolidPlaylist, BiMusic } from 'react-icons/bi/index'
 import './Layout.css'
 
 function Layout() {
