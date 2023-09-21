@@ -14,7 +14,9 @@ function Layout() {
                         <li><a href="/library" className='mini-bth'><BiLibrary className='icon'/>Library</a></li>
                         <li><a href="/playlist" className='mini-bth'><BiSolidPlaylist className='icon'/>Playlists</a></li>
                         <div className="form">
-                            <button className='button'>Profile</button>
+                            <form action="/profile">
+                                <button className='button'>Profile</button>
+                            </form>
                         </div>
                     </ul>
                 </div>

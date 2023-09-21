@@ -22,10 +22,6 @@ body {
     background: #FF0000;
 }
 
-.section {
-  display: flex;
-  justify-content: center;
-}
 
 .header {
   background-color: #420c3e81;

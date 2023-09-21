@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+body {
+  background-color: #1b1b1b;
+  width: 100% auto;
+  height: 100% auto;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kodchasan', sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+    
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-content {
+    border-radius: 25px;
+    background-color: #2b2b2b70;
+    margin-top: 130px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.block-now {
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    right: 470px;
+    bottom: 420px;
+    position: absolute;
+    width: 290px;
+}
+
+.photo-user {
+    border-radius: 360px;
+    width: 150px;
+    height: 150px;
+    margin-right: 380px;
+    margin-top: 25px;
+    display: block;
+}
+
+.name-user {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    bottom: 450px;
+    left: 600px;
+    position: absolute;
+}
