@@ -72,7 +72,7 @@ body {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  padding-top: 40px;
+  padding-top: 25px;
   position: relative;
   transition: ease-out 0.3s;
 }
@@ -90,7 +90,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 240px
+  margin-top: 240px;
+  position: fixed;
+  left: 15px;
 }
 
 .button {

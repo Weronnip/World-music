@@ -37,8 +37,11 @@ body {
     justify-content: center;
 }
 
+
+
 .block-now {
     color: white;
+    text-align: center;
     font-size: 19px;
     font-weight: 400;
     right: 470px;
@@ -50,7 +53,7 @@ body {
 .photo-user {
     border-radius: 360px;
     width: 150px;
-    height: 150px;
+    height: 150px   ;
     margin-left: 15px;
     margin-top: 25px;
     display: block;
@@ -69,13 +72,11 @@ body {
 .library-content {
     border-radius: 25px;
     width: 600px;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: start;
     margin: auto;
-    padding: auto;
     text-align: center;
-    margin-top: 90px;
 }
 
 .playlist-content {
@@ -86,6 +87,7 @@ body {
     margin: auto;
     padding: auto;
     display: flex;
+    margin-top: 90px;
     align-items: center;
     padding-left: 8px;
     font-size: 20px;
