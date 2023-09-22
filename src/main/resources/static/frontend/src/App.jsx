@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from './View/Home';
 import { Notfound } from './View/notfound';
 import { Profile } from './View/Profile';
+import { Library } from './View/Library';
 
 // outline
 import { Layout } from './components/Layout'
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />}/>
           <Route path='home' element={<Home />}/>
           <Route path='profile' element={<Profile />}/>
+          <Route path='library' element={<Library />}/>
           <Route path='*' element={<Notfound />}/>
         </Route>
       </Routes>

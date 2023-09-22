@@ -1,21 +1,21 @@
 import './css/home.css'
 import { BiSolidPlaylist } from "react-icons/bi/index";
-import { AiOutlineClose } from 'react-icons/ai/index'
+import { AiOutlineClose, AiOutlineTrophy, AiOutlineCustomerService } from 'react-icons/ai/index'
 
 
 function Home() {
     return(
         <div className="section">
             <div className="header">
-                <ul className="nav-list">
-                    <li><a href="#openModal" className='openModal' title='playlist'><BiSolidPlaylist /></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                <ul className="navigation-list">
+                    <li><a href="#openModal" className='head-bth' title='playlist'><BiSolidPlaylist /></a></li>
+                    <li><a href="#top-chart" className='head-bth' title='top Charts'><AiOutlineTrophy /></a></li>
+                    <li><a href="#mix" className='head-bth' title='mix track'><AiOutlineCustomerService /></a></li>
                     <li><a href="#"></a></li>
                 </ul>
             </div>
             <div className="wrappers">
-                q<div className="playlist">
+                <div className="playlist">
                     <div className="modal" id='openModal'>
                         <div className="modal_dialog">
                             <div className="modal_content">

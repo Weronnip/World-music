@@ -86,14 +86,13 @@ body {
   margin-top: 4px;
 }
 
-
 .form {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 240px;
   position: fixed;
   left: 15px;
+  padding-top: 240px;
 }
 
 .button {

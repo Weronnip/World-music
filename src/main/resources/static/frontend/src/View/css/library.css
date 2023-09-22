@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+body {
+  background-color: #1b1b1b;
+  width: 100% auto;
+  height: 100% auto;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kodchasan', sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+    
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.content-list {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.list-track {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.track {
+    border-radius: 25px;
+    background-color: #1b1b2b;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.track-info {
+    border-radius: 25px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+}
