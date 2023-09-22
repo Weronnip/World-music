@@ -64,12 +64,12 @@ body {
   text-align: center;
 }
 
+
 .mini-bth {
   color: #219760;
   font-size: 25px;
   font-weight: 600;
   display: flex;
-  text-align: center;
   justify-content: center;
   text-decoration: none;
   padding-top: 25px;
@@ -85,6 +85,7 @@ body {
   font-size: 25px;
   margin-top: 4px;
 }
+
 
 .form {
   display: flex;
